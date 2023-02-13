@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --element-PRIMARY: #EB5440;
+  --element-btnSel: #e6a096;
+  --element-SECONDARY: #4A4B4C;
+  --element-SECONDARY-2: #c6c3c3;
+  --element-TERTIARY: #E8E8E8;
+  --element-TERTIARY-dark: #C3C3C3;
+  --element-BACKGROUND-dark: #F6F6F6;
+  --element-BACKGROUND: #FFFFFF;
+
+  --text-PRIMARY: #000000;
+  --text-SECONDARY: #4A4B4C;
+  --text-HYPERLINK: #067BC2;
+
+  /**/
+  --reg: 400;
+  --Bold: 700;
+  --semi: 600;
+  --med: 500;
+
+
+}
+
+
+body {
+
+  margin: 0;
+  background: var(--element-BACKGROUND-dark);
+  transition: color 0.5s, background-color 0.5s;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

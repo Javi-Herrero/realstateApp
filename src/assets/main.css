@@ -1,0 +1,176 @@
+@import './style.css';
+
+
+
+#app {
+  font-family: Montserrat;
+  font-weight: normal;
+  color: var(--text-PRIMARY);
+  /*   margin-left: 10%;
+  margin-right: 10%; */
+  width: 100%;
+}
+
+#App a {
+  color: var(--text-PRIMARY);
+  text-decoration: none;
+}
+
+#App a:visited {
+  color: var(--text-PRIMARY);
+}
+
+#app h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: var(--Bold);
+}
+
+#app h2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: var(--Bold);
+}
+
+#app .navBarDesk {
+  background-color: var(--element-BACKGROUND);
+}
+
+#app .navBarMob {
+  display: none;
+}
+
+#app .headerActiveMenu {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--Bold);
+}
+
+#app .buttonsTabs {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--Bold);
+}
+
+#app
+
+/* .backButtonLabel {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: var(--semi);
+} */
+#app .inputFieldTitle {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: var(--semi);
+}
+
+#app .headerInactiveMenu {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--med);
+}
+
+#app .emptyStateMessage {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--med);
+}
+
+#app .error {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: var(--med);
+  font-style: italic;
+}
+
+#app .listingInfo {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: var(--semi);
+  color: var(--text-SECONDARY);
+}
+
+#app .bodyText {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: var(--reg);
+  color: var(--element-TERTIARY-dark);
+}
+
+#app .inputField {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: var(--reg);
+}
+
+button {
+  background-color: var(--element-PRIMARY);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 12px;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: var(--Bold);
+  color: white;
+  cursor: pointer;
+
+}
+
+@media (max-width: 500px) {
+  #app h1 {
+    font-size: 18px;
+  }
+
+  #app h2 {
+    font-size: 14px;
+  }
+
+  #app .navBarMob {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--element-BACKGROUND);
+    position: fixed;
+    bottom: 0;
+  }
+
+  #app .navBarDesk {
+    display: none;
+  }
+
+  #app .buttonsTabs {
+    font-size: 12px;
+  }
+
+  #app .inputFieldTitle {
+    font-size: 12px;
+  }
+
+  #app .emptyStateMessage {
+    font-size: 14px;
+  }
+
+  #app .error {
+    font-size: 12px;
+  }
+
+  #app .listingInfo {
+    font-size: 12px;
+  }
+
+  #app .bodyText {
+    font-size: 12px;
+  }
+
+  #app .inputField {
+    font-size: 12px;
+  }
+
+  #app button {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,151 @@
+@import './style.css';
+
+
+#app {
+    font-family: Montserrat;
+    font-weight: normal;
+
+
+    h1 {
+
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: var(--Bold);
+    }
+
+    h2 {
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: var(--Bold);
+    }
+
+    .navBarDesk {
+        background-color: var(--element-BACKGROUND);
+
+    }
+
+    .navBarMob {
+        display: none;
+    }
+
+    .headerActiveMenu {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: var(--Bold);
+    }
+
+    .buttonsTabs {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: var(--Bold);
+    }
+
+    .backButtonLabel {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: var(--semi);
+    }
+
+    .inputFieldTitle {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: var(--semi);
+    }
+
+    .headerInactiveMenu {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: var(--med);
+    }
+
+    .emptyStateMessage {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: var(--med);
+    }
+
+    .error {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: var(--med);
+        font-style: italic;
+    }
+
+    .listingInfo {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: var(--semi);
+    }
+
+    .bodyText {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: var(--reg);
+    }
+
+    .inputField {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: var(--reg);
+    }
+
+    @media (max-width:500px) {
+
+
+
+        h1 {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
+
+        .navBarMob {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: var(--element-BACKGROUND);
+            position: fixed;
+            bottom: 0;
+
+        }
+
+        .navBarDesk {
+            display: none;
+        }
+
+        .buttonsTabs {
+            font-size: 12px;
+        }
+
+
+
+
+        .inputFieldTitle {
+            font-size: 12px;
+        }
+
+
+
+        .emptyStateMessage {
+            font-size: 14px;
+        }
+
+        .error {
+            font-size: 12px;
+        }
+
+        .listingInfo {
+            font-size: 12px;
+        }
+
+        .bodyText {
+            font-size: 12px;
+        }
+
+        .inputField {
+            font-size: 12px;
+        }
+    }
+}
